@@ -5,12 +5,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class PlayerColorChanger extends JavaPlugin {
     @Override
     public void onEnable() {
-        getLogger().info("Hello World From MyPLUGIN");
+        getLogger().info("Hello World from PlayerColorChanger plugin");
+
+        this.getCommand("setcolor").setExecutor(new SetPlayerColorCommand());
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("goodbye cruel world From MyPLUGIN");
+        getLogger().info("Goodbye cruel world From PlayerColorChanger plugin");
     }
 }
 
