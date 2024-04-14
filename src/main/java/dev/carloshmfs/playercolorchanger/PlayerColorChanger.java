@@ -1,4 +1,4 @@
-package carloshmfs.playercolorchanger;
+package dev.carloshmfs.playercolorchanger;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
